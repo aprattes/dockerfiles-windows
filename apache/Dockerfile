@@ -1,5 +1,5 @@
 # escape=`
-FROM mcr.microsoft.com/windows/servercore:ltsc2019 as download
+FROM mcr.microsoft.com/windows/servercore:ltsc2022 as download
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
